@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+         <div class="Rectangle">
+            <span class="Sign-Up"> Sign Up  </span>   
+
+            <span class="No-credit-card-requi">No credit card required</span>   
+
+            <input class="input_field" id="comp_name" type="text" placeholder="Company Name"/>
+
+            <span id="invalid_company" class="span_validation"></span> 
+
+            <input class="input_field" id="email_box" type="text" placeholder="Email address"/>
+
+            <span id="invalid_email" class="span_validation"></span> 
+
+            <input class="input_field" id="passWord" type="password" placeholder="Passowrd"/>
+
+            <span id="invalid_password" class="span_validation"></span>
+
+            <input class="check_box" type="checkbox" id="check " onclick="checkHandler(this)" />
+            <a class="agree_anger">I agree to the</a>
+            <a class="terms_anger"> Terms & Conditions </a>
+            <input  type="submit" class="submit_butt" id="subBmit" disabled="disabled" onclick=" return submitHandler()" />
+             </div>
+ </body>
+</html>

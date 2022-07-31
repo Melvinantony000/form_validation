@@ -1,0 +1,88 @@
+body{
+    background-image: url("./Assets/bg.png"); 
+   }
+   .Rectangle {
+    width: 400px;
+    height: 500px;
+    /* margin: 8.125rem 0 0; */
+    /* padding: 3.125rem 3.563rem 3.125rem 3.438rem; */
+    /* padding: 150px; */
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 52px 54px 0 rgba(65, 62, 101, 0.25);
+    background-color: rgba(0, 0, 0, 0.44);
+  }
+  .Sign-Up { 
+    width: 13.125rem;
+    height: 3.5rem;
+    margin-left: 135px;
+    font-family: CircularStd;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+     letter-spacing: -1.03px;
+     color: #fff;
+  }
+  .No-credit-card-requi {
+    width: 12.875rem;
+    height: 2.438rem;
+    margin: 1rem 6.438rem 2.188rem 6.625rem;
+    font-family: CircularStd;
+    font-size: 1.313rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: -0.66px;
+    text-align: center;
+    color:  #fff;
+  }
+  .input_field{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 1px gray ;
+    background-color: #fff; 
+    margin: 10px 20px auto;
+}
+.check_box{
+    margin: 20px;
+}
+.agree_anger{
+  color: #fff;
+  cursor:none;
+
+}
+.terms_anger{
+    color: rgb(209, 191, 26);
+    cursor: pointer;
+}
+.submit_butt{
+  color: #fff;
+    width: 300px;
+    padding: 15px;
+    border-radius: 7px;
+    border-color: #f04037;
+    background-color: #c50e05;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.submit_butt:disabled{
+  background-color: #f54730;
+}
+.submit_butt:not(:disabled):hover{
+  background-color: #fc1105;
+}
+.span_validation{
+  color: #f3361d;
+  font-size: 18px;
+  font-weight: bold;
+  width: 50px;
+  margin-left: 20px; 
+}
